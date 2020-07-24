@@ -1,7 +1,7 @@
 
 import csv
 import psycopg2
-import sys
+
 
 #open the source csv file
 fd = open('users-data.csv', 'rt')
