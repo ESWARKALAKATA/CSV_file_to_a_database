@@ -10,7 +10,7 @@ fd = open('users-data.csv', 'rt')
 reader = csv.reader(fd)
 
 #connecting to database
-conn = psycopg2.connect( database="test", user="postgres", host="127.0.0.1", password="eswar247")
+conn = psycopg2.connect( database="test", user="postgres", host="127.0.0.1", password="eswar****")
 cur = conn.cursor()
 
 #insert each row of csv file and add to database
